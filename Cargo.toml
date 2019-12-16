@@ -1,9 +1,14 @@
 [package]
 name = "rsda"
 version = "0.1.0"
-authors = ["tom <tom.hightower356@gmail.com>"]
+authors = ["TomHightower <tom.hightower356@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+vst = "0.2.0"
+
+[lib]
+name = "rsda"
+crate-type = ["cdylib"]
